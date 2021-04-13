@@ -1,6 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/* Icon      Command                         Interval	Signal */
+	{  "",       "spotify-blk",                  10,        5         },
 	{  "",       "volume",                       30,        4         },
 	{  "",       "brightness",                   30,        3         },
 	{  "",       "net",                          30,        2         },
